@@ -1,6 +1,6 @@
 {
   "name": "To Do List",
-  "short_name": "To Do List",
+  "short_name": "ToDo",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
