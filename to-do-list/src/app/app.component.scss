@@ -1,0 +1,26 @@
+.container{
+    align-content: center;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+.header{
+    margin: 0px;
+    padding: 25px;
+    background-color: cadetblue;
+    color: aliceblue;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+}
+
+.content{
+    margin-top: 87px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px
+}

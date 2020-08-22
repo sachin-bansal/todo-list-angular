@@ -1,0 +1,13 @@
+<div class="to-do-item-container">
+  <ul class="to-do-item-list"> 
+    <li *ngFor="let item of toDoItemList">
+      <div>
+        <label>
+          <input type="checkbox" [value]="item.id" (change)="onCheckboxChange($event)"/>
+          {{item.description}}
+        </label>
+        <button (click)="onDelete(item)">Delete</button>
+      </div>
+    </li>
+  </ul>
+</div>
